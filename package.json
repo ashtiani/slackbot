@@ -1,0 +1,15 @@
+{
+  "name":"McVeighLabBot",
+  "version":"0.0.1",
+  "description":"Simple Bot for McVeighLab Slack",
+  "main":"app.js",
+  "author":"Ali Ashtiani",
+  "license": "MIT",
+  "dependencies":{
+    "express":"^4.x.x",
+    "body-parser":"^1.x.x",
+    "request":"2.56.x"
+  }
+
+
+}
