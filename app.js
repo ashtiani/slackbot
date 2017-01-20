@@ -16,13 +16,10 @@ app.listen(port, function() {
 
 
 app.post('/hello', function(req,res,next)){
-  var userName = req.body.user_namel
+  var userName = req.body.user_name;
   var botPayLoad = {
-    tex:'Hello' + username + '!'
+    text:'Hello' + username + '!'
   };
-}
-
-
 
 if(userName !=='slackbot'){
   return res.status(200).json(botPayLoad);
