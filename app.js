@@ -7,7 +7,7 @@ var port = process.env.PORT || 1337;
 
 app.use(bodyParser.urlencoded({extended: true}));
 
-app.get('/', function(req, res) {res.status(200).send('Server Running!');});
+app.get('/', function(req, res) {res.status(200).send('Server Running!'); });
 
 
 app.listen(port, function() {
@@ -15,7 +15,7 @@ app.listen(port, function() {
 });
 
 
-app.post('/hello'. function(req,res,next)){
+app.post('/hello', function(req,res,next)){
   var userName = req.body.user_namel
   var botPayLoad = {
     tex:'Hello' + username + '!'
